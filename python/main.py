@@ -18,7 +18,6 @@ pred = lambda n : lambda f : lambda x : n(lambda g : lambda h : h(g(f)))(lambda 
 mult = lambda m : lambda n : lambda f : lambda x : m(n(f))(x)
 
 F = lambda f : lambda n : isZero(n)(lambda v : _1)(lambda v : mult(n)(v(pred(n))))(f)
-#F = lambda f : lambda n : _1 if isZero(n)(True)(False) else mult(n)(f(pred(n)))
 
 
 
