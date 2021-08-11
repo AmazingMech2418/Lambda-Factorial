@@ -4,7 +4,7 @@ Lambda calculus, invented by Alonzo Church (Alan Turing's teacher!), is the brid
 
 Lambda calculus is the backbone for functional programming languages.
 
-In my pursuit of learning lambda calculus, I created an anonymous recursive factorial function in JavaScript, using Church encoding for all numbers and booleans involved. I then started a Python version and am now working on expanding this, starting with Haskell, and decided to make this another "x in many languages" project. 
+In my pursuit of learning lambda calculus, I created an anonymous recursive factorial function in JavaScript, using Church encoding for all numbers and booleans involved. I then started a Python version and am now working on expanding this, starting with Haskell (now complete!), and decided to make this another "x in many languages" project. 
 
 ## Repo Overview
 
